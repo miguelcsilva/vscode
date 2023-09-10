@@ -1,0 +1,70 @@
+{
+    // Editor
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 15,
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.suggest.insertMode": "replace",
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    // Files
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 100,
+    // Settings
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultSettings": false,
+    // Terminal
+    "python.terminal.activateEnvironment": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "Source Code Pro",
+    "terminal.integrated.fontSize": 15,
+    // Vim
+    "vim.leader": "<Space>",
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // Tabs
+        {"before": ["<S-l>"], "commands": [":bnext"]},
+        {"before": ["<S-h>"], "commands": [":bprevious"]},
+        // Screen split
+        {"before": ["leader", "v"], "commands": [":vsplit"]},
+        {"before": ["leader", "s"], "commands": [":split"]},
+        // Panes
+        {
+            "before": ["leader", "h"],
+            "commands": ["workbench.action.focusLeftGroup"]
+        },
+        {
+            "before": ["leader", "j"],
+            "commands": ["workbench.action.focusBelowGroup"]
+        },
+        {
+            "before": ["leader", "k"],
+            "commands": ["workbench.action.focusAboveGroup"]
+        },
+        {
+            "before": ["leader", "l"],
+            "commands": ["workbench.action.focusRightGroup"],
+        },
+        // File tree
+        {
+            "before": ["leader", "n", "e"],
+            "commands": ["workbench.explorer.fileView.focus"]
+        },
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        {"before": ["<"], "commands": ["editor.action.outdentLines"]},
+        {"before": [">"], "commands": ["editor.action.indentLines"]},
+        // Move selected lines while staying in visual mode
+        {"before": ["J"], "commands": ["editor.action.moveLinesDownAction"]},
+        {"before": ["K"], "commands": ["editor.action.moveLinesUpAction"]},
+        // toggle comment selection
+        {"before": ["leader", "c"], "commands": ["editor.action.commentLine"]}
+    ],
+    // Workbench
+    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.activityBar.visible": false,
+    "breadcrumbs.enabled": false,
+}
