@@ -22,6 +22,12 @@
     // Vim
     "vim.leader": "<Space>",
     "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<esc>"]
+        }
+    ],
     "vim.normalModeKeyBindingsNonRecursive": [
         // Tabs
         {"before": ["<S-l>"], "commands": [":bnext"]},
