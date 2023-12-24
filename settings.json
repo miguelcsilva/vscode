@@ -26,6 +26,7 @@
         // Tabs
         {"before": ["<S-l>"], "commands": [":bnext"]},
         {"before": ["<S-h>"], "commands": [":bprevious"]},
+        {"before": ["<S-c>"], "commands": ["workbench.action.closeActiveEditor"]},
         // Screen split
         {"before": ["leader", "v"], "commands": [":vsplit"]},
         {"before": ["leader", "s"], "commands": [":split"]},
