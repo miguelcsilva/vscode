@@ -44,13 +44,13 @@
         },
         {
             "before": ["leader", "l"],
-            "commands": ["workbench.action.focusRightGroup"],
+            "commands": ["workbench.action.focusRightGroup"]
         },
         // File tree
         {
             "before": ["leader", "n", "e"],
             "commands": ["workbench.explorer.fileView.focus"]
-        },
+        }
     ],
     "vim.visualModeKeyBindings": [
         // Stay in visual mode while indenting
@@ -66,5 +66,5 @@
     "workbench.colorTheme": "Community Material Theme Darker High Contrast",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.activityBar.visible": false,
-    "breadcrumbs.enabled": false,
+    "breadcrumbs.enabled": false
 }
