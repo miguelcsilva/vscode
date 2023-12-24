@@ -22,7 +22,7 @@
     {
         "key": "ctrl+shift+d",
         "command": "workbench.action.terminal.killActiveTab",
-        "when": "terminalFocus",
+        "when": "terminalFocus"
     },
     // File Tree
     {
@@ -58,5 +58,5 @@
         "command": "deleteFile",
         "key": "d",
         "when": "filesExplorerFocus && !inputFocus"
-    },
+    }
 ]
