@@ -1,26 +1,26 @@
 [
     // Terminal
     {
-        "key": "ctrl+shift+a",
+        "key": "ctrl+l",
         "command": "workbench.action.terminal.focusNext",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+b",
+        "key": "ctrl+h",
         "command": "workbench.action.terminal.focusPrevious",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+j",
+        "key": "ctrl+j",
         "command": "workbench.action.togglePanel"
     },
     {
-        "key": "ctrl+shift+n",
+        "key": "ctrl+n",
         "command": "workbench.action.terminal.new",
         "when": "terminalFocus"
     },
     {
-        "key": "ctrl+shift+d",
+        "key": "ctrl+d",
         "command": "workbench.action.terminal.killActiveTab",
         "when": "terminalFocus"
     },
