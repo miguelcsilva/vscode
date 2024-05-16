@@ -29,7 +29,7 @@
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
-        // Tabs
+       // Tabs
         {"before": ["<S-l>"], "commands": [":bnext"]},
         {"before": ["<S-h>"], "commands": [":bprevious"]},
         {"before": ["<S-c>"], "commands": ["workbench.action.closeActiveEditor"]},
@@ -70,8 +70,9 @@
         {"before": ["leader", "c"], "commands": ["editor.action.commentLine"]}
     ],
     // Workbench
-    "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+    "workbench.colorTheme": "Tokyo Night",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.activityBar.visible": false,
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "remote.autoForwardPortsSource": "hybrid",
+    "githubPullRequests.pullBranch": "never"
 }

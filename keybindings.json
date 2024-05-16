@@ -66,13 +66,24 @@
         "when": "explorerViewletFocus"
     },
     {
-        "key": "shift+n",
-        "command": "workbench.action.newWindow",
-        "when": "!explorerViewletFocus"
+        "key": "d",
+        "command": "deleteFile",
+        "when": "filesExplorerFocus && !inputFocus"
+    },
+    // Browsing navigation
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.revealDefinition",
+        "when": "editorTextFocus"
     },
     {
-        "command": "deleteFile",
-        "key": "d",
-        "when": "filesExplorerFocus && !inputFocus"
+        "key": "ctrl+s",
+        "command": "workbench.action.navigateBack",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "workbench.action.navigateForward",
+        "when": "editorTextFocus"
     }
 ]
