@@ -29,7 +29,9 @@
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
-       // Tabs
+        // Comments
+        {"before": ["leader", "c"], "commands": ["editor.action.commentLine"]},
+        // Tabs
         {"before": ["<S-l>"], "commands": [":bnext"]},
         {"before": ["<S-h>"], "commands": [":bprevious"]},
         {"before": ["<S-c>"], "commands": ["workbench.action.closeActiveEditor"]},
@@ -58,6 +60,12 @@
             "before": ["leader", "n", "e"],
             "commands": ["workbench.explorer.fileView.focus"]
         }
+        ,
+        // Navigation
+        {
+            "before": ["leader", "d"],
+            "commands": ["editor.action.revealDefinition"]
+        }
     ],
     "vim.visualModeKeyBindings": [
         // Stay in visual mode while indenting
@@ -73,6 +81,5 @@
     "workbench.colorTheme": "Tokyo Night",
     "workbench.iconTheme": "material-icon-theme",
     "breadcrumbs.enabled": false,
-    "remote.autoForwardPortsSource": "hybrid",
-    "githubPullRequests.pullBranch": "never"
+    "remote.autoForwardPortsSource": "hybrid"
 }
