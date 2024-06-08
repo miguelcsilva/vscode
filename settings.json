@@ -81,5 +81,6 @@
     "workbench.colorTheme": "Tokyo Night",
     "workbench.iconTheme": "material-icon-theme",
     "breadcrumbs.enabled": false,
-    "remote.autoForwardPortsSource": "hybrid"
+    "remote.autoForwardPortsSource": "hybrid",
+    "githubPullRequests.pullBranch": "never"
 }
